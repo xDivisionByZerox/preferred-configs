@@ -93,7 +93,7 @@
         "complexity": [
           "error",
           {
-            "max": 5
+            "max": 10
           }
         ],
         "computed-property-spacing": [
@@ -168,10 +168,7 @@
           "error",
           "beside"
         ],
-        "indent": [
-          "error",
-          2
-        ],
+        "indent": "off",
         "indent-legacy": "off",
         "init-declarations": [
           "error",
@@ -303,174 +300,6 @@
           }
         ],
         "prefer-reflect": "off",
-        "prefer-spread": "error",
-        "prefer-template": "error",
-        "quotes": [
-          "error",
-          "single"
-        ],
-        "radix": "error",
-        "require-await": "off",
-        "semi": "error",
-        "sort-imports": "off",
-        "use-isnan": "error",
-        "vars-on-top": "error",
-        "wrap-iife": "error"
-      }
-    },
-    {
-      "extends": [
-        "plugin:@angular-eslint/template/recommended"
-      ],
-      "files": [
-        "*.html"
-      ],
-      "rules": {}
-    }
-  ],
-  "root": true
-}
-      "parserOptions": {
-        "createDefaultProgram": true,
-        "ecmaFeatures": {
-          "arrowFunctions": true,
-          "binaryLiterals": true,
-          "classes": true,
-          "forOf": true,
-          "jsx": true,
-          "spread": true,
-          "templateStrings": true
-        },
-        "ecmaVersion": 12,
-        "project": [
-          "tsconfig.json",
-          "e2e/tsconfig.json"
-        ]
-      },
-      "rules": {
-        "@angular-eslint/component-selector": [
-          "error",
-          {
-            "prefix": "app",
-            "style": "kebab-case",
-            "type": "element"
-          }
-        ],
-        "@angular-eslint/directive-selector": [
-          "error",
-          {
-            "prefix": "app",
-            "style": "camelCase",
-            "type": "attribute"
-          }
-        ],
-        "@typescript-eslint/no-floating-promises": [
-          "error",
-          {
-            "ignoreIIFE": true,
-            "ignoreVoid": true
-          }
-        ],
-        "accessor-pairs": "error",
-        "array-bracket-newline": "error",
-        "array-bracket-spacing": "error",
-        "callback-return": "off",
-        "capitalized-comments": "off",
-        "complexity": [
-          "error",
-          {
-            "max": 5
-          }
-        ],
-        "computed-property-spacing": [
-          "error",
-          "never",
-          {
-            "enforceForClassMembers": true
-          }
-        ],
-        "consistent-return": [
-          "error",
-          {
-            "treatUndefinedAsUnspecified": true
-          }
-        ],
-        "array-callback-return": "error",
-        "array-element-newline": "off",
-        "arrow-body-style": [
-          "error",
-          "as-needed"
-        ],
-        "arrow-parens": "error",
-        "arrow-spacing": "error",
-        "block-scoped-var": "error",
-        "block-spacing": "error",
-        "brace-style": "error",
-        "camelcase": "off",
-        "class-methods-use-this": "error",
-        "comma-dangle": [
-          "error",
-          "only-multiline"
-        ],
-        "comma-spacing": "error",
-        "comma-style": "error",
-        "constructor-super": "off",
-        "curly": "error",
-        "default-case": "error",
-        "dot-location": [
-          "error",
-          "property"
-        ],
-        "eol-last": "error",
-        "eqeqeq": "error",
-        "func-style": "off",
-        "max-len": [
-          "error",
-          {
-            "code": 140,
-            "ignoreStrings": true,
-            "ignoreTemplateLiterals": true,
-            "ignoreUrls": true,
-            "tabWidth": 2
-          }
-        ],
-        "max-statements-per-line": [
-          "error",
-          {
-            "max": 2
-          }
-        ],
-        "newline-before-return": "error",
-        "no-alert": "error",
-        "no-array-constructor": "error",
-        "no-bitwise": "error",
-        "no-buffer-constructor": "error",
-        "no-caller": "error",
-        "no-compare-neg-zero": "error",
-        "no-confusing-arrow": "error",
-        "no-const-assign": "error",
-        "no-debugger": "error",
-        "no-delete-var": "error",
-        "no-dupe-args": "error",
-        "no-dupe-keys": "error",
-        "no-duplicate-case": "error",
-        "no-duplicate-imports": "error",
-        "no-empty-function": "error",
-        "no-eval": "error",
-        "no-return-await": "error",
-        "no-shadow-restricted-names": "error",
-        "no-undef": "off",
-        "no-undefined": "off",
-        "no-unreachable": "error",
-        "no-unsafe-finally": "error",
-        "no-unused-expressions": "error",
-        "no-unused-labels": "error",
-        "no-unused-vars": "off",
-        "no-useless-constructor": "error",
-        "no-var": "error",
-        "object-curly-newline": "error",
-        "object-shorthand": "error",
-        "prefer-const": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
         "quotes": [
