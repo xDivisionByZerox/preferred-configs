@@ -66,6 +66,13 @@
             "ignoreVoid": true
           }
         ],
+        "@typescript-eslint/no-shadow": [
+          "error",
+          {
+            "ignoreFunctionTypeParameterNameValueShadow": true,
+            "ignoreTypeValueShadow": true
+          }
+        ],
         "accessor-pairs": "error",
         "array-bracket-newline": "error",
         "array-bracket-spacing": "error",
@@ -250,7 +257,7 @@
         "no-fallthrough": "error",
         "no-multiple-empty-lines": "error",
         "no-return-await": "error",
-        "no-shadow": "error",
+        "no-shadow": "off",
         "no-shadow-restricted-names": "error",
         "no-undef": "off",
         "no-undefined": "off",
@@ -282,16 +289,7 @@
           }
         ],
         "prefer-const": "error",
-        "prefer-destructuring": [
-          "error",
-          {
-            "array": false,
-            "object": true
-          },
-          {
-            "enforceForRenamedProperties": false
-          }
-        ],
+        "prefer-destructuring": ["off"],
         "prefer-numeric-literals": "off",
         "prefer-promise-reject-errors": [
           "error",
