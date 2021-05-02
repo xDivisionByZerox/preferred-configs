@@ -1,2 +1,2 @@
 # preferred-configs
-A collection of my preffered, most used config files. 
+A collection of my preferred, most used config files. 
