@@ -225,7 +225,7 @@
       "error",
       {
         "allow": [
-          "constructor"
+          "constructors"
         ]
       }
     ],
