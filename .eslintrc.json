@@ -221,7 +221,14 @@
     "no-dupe-keys": "error",
     "no-duplicate-case": "error",
     "no-duplicate-imports": "error",
-    "no-empty-function": "error",
+    "no-empty-function": [
+      "error",
+      {
+        "allow": [
+          "constructor"
+        ]
+      }
+    ],
     "no-eval": "error",
     "no-fallthrough": "error",
     "no-multiple-empty-lines": "error",
