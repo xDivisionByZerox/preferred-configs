@@ -45,6 +45,7 @@
         "ignoreTypeValueShadow": true
       }
     ],
+    "@typescript-eslint/promise-function-async": "error",
     "accessor-pairs": "error",
     "array-bracket-newline": "error",
     "array-bracket-spacing": "error",
