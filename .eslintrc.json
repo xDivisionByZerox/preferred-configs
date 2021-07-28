@@ -46,6 +46,20 @@
       }
     ],
     "@typescript-eslint/promise-function-async": "error",
+    "@typescript-eslint/member-delimiter-style": [
+      "error",
+      {
+        "multiline": {
+          "delimiter": "semi",
+          "requireLast": true
+        },
+        "singleline": {
+          "delimiter": "semi",
+          "requireLast": false
+        },
+        "multilineDetection": "brackets"
+      }
+    ],
     "accessor-pairs": "error",
     "array-bracket-newline": "error",
     "array-bracket-spacing": "error",
